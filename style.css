@@ -1,0 +1,43 @@
+body {background-color: #F2E9DC; margin:20px; font-family: monospace;}
+
+p {color: #292727; font-size: 16px;}
+.subtitle { font-size: 20px;}
+p.learn {font-weight: bold;}
+p.reference {color: #606F65; font-size: 14px;}
+
+a {text-decoration: none;}
+a {text-decoration: none; color: black;}
+
+div.info {background-color: #91C499; color: black; padding: 40px;}
+div.findInfo {background-color: #aeeb9f; color: black; padding: 40px;}
+
+.more {
+    display: inline-block; 
+    font-weight: bold; 
+    border: none; 
+    padding: 5px; 
+    font-family: monospace; 
+    background-color: #CFD11A; 
+    color: black; transition: 0.3s
+    } 
+.more:hover {
+    box-shadow: 2px 4px 16px 0 #799A7F;
+    }
+
+nav {background-color: #aeeb9f; margin: 5px; padding: 10px 30px; float:inline-start;}
+
+a.dichKey {color: darkgreen; font-size: 17px; font-weight: bold;}
+
+.imgOne {border: 10px solid red; float: none; width: 30%; display: inline;}
+.imgTwo {border: 10px solid blue; float: none; width: 30%; display: inline;}
+.imgThree {border: 10px solid green; float: none; width: 30%; display: inline;}
+
+.imgref {width: 100px; border-radius: 10px;}
+
+img {width: 200px; float: right; margin: 20px;}
+
+.section {
+    display:grid;
+    margin: 50px;
+    justify-content: space-between;
+}
